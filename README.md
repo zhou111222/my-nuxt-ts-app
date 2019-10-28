@@ -6,8 +6,15 @@
 4. 异步请求使用`axios`，并在`api/requst.ts`中做了拦截器封装
 5. 项目已集成 `webpack-spritesmith` `postcss-px2rem`等插件或类库，详情请查看nuxt.config.ts
 
+## 原理
+![nuxt 原理](https://img2018.cnblogs.com/blog/1703096/201906/1703096-20190618183207063-1790759880.png)
+
 ## nuxt学习
-'https://juejin.im/post/5cc81e1a6fb9a032414f695b'
+https://juejin.im/post/5cc81e1a6fb9a032414f695b
+https://segmentfault.com/a/1190000019972611
+
+生命周期
+
 ## webpack-spritesmith
 > 为了优化图标加载，项目使用`webpack-spritesmith`自动合并图标为sprite
 
@@ -104,6 +111,7 @@ async getProductList() {
 |   |-- index.vue                   // index页面
 |   |-- index.vue                   // home页面
 |-- static                          // 用于存放静态资源文件，比如图片
+├-- plugins                         // 用于组织那些需要在 根vue.js应用 实例化之前需要运行的 Javascript 插件。
 |--store                            // 用于组织应用的Vuex 状态管理
 |-- |-- index.ts                    // index页面的vuex
 |-- |-- home.ts                     // home页面的vuex
