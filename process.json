@@ -1,0 +1,23 @@
+{
+    "apps": [{
+        "name": "my-nuxt-app",
+        "cwd": "",
+        "script": "node_modules/nuxt/bin/nuxt-start",
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+        "error_file": "/var/log/node-app/node-app.stderr.log",
+        "out_file": "log/node-app.stdout.log",
+        "pid_file": "pids/node-geo-api.pid",
+        "instances": 3,
+        "min_uptime": "60s",
+        "max_restarts": 10,
+        "max_memory_restart": "300M",
+        "cron_restart": "1 0 * * *",
+        "watch": false,
+        "port": "3000",
+        "merge_logs": true,
+        "exec_interpreter": "node",
+        "exec_mode": "fork",
+        "autorestart": false,
+        "vizion": false
+    }]
+}

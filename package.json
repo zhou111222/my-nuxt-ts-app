@@ -1,0 +1,31 @@
+{
+    "name": "my-nuxt-app",
+    "description": "my-nuxt-app",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "@nuxt/typescript-runtime": "0.2.2",
+        "@nuxtjs/axios": "^5.8.0",
+        "axios": "^0.19.0",
+        "nuxt": "2.10.2",
+        "nuxt-property-decorator": "2.5.0",
+        "postcss-px2rem": "^0.3.0",
+        "vuex-class": "0.3.2"
+    },
+    "scripts": {
+        "dev": "cross-env BASE_URL=http://m.quanfenshop.com NODE_ENV=development nuxt-ts",
+        "build": "cross-env NODE_ENV=production BASE_URL=http://m.quanfenshop.com nuxt-ts build",
+        "start": "cross-env NODE_ENV=production BASE_URL=http://m.quanfenshop.com nuxt-ts start",
+        "generate": "cross-env NODE_ENV=production BASE_URL=http://m.quanfenshop.com nuxt-ts generate"
+    },
+    "devDependencies": {
+        "@nuxt/typescript-build": "0.3.2",
+        "cross-env": "^6.0.3",
+        "node-sass": "^4.13.0",
+        "postcss-hexrgba": "^2.0.0",
+        "postcss-nested": "^4.1.2",
+        "postcss-responsive-type": "^1.0.0",
+        "sass-loader": "^8.0.0",
+        "webpack-spritesmith": "^1.0.2"
+    }
+}
