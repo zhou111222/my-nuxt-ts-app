@@ -6,12 +6,11 @@
 4. 异步请求使用`axios`，并在`api/requst.ts`中做了拦截器封装
 5. 项目已集成 `webpack-spritesmith` `postcss-px2rem`等插件或类库，详情请查看nuxt.config.ts
 
-## 原理
-![nuxt 原理](https://img2018.cnblogs.com/blog/1703096/201906/1703096-20190618183207063-1790759880.png)
-
 ## nuxt学习
-https://juejin.im/post/5cc81e1a6fb9a032414f695b
-https://segmentfault.com/a/1190000019972611
+
+'https://juejin.im/post/5cc81e1a6fb9a032414f695b'
+
+'https://segmentfault.com/a/1190000019972611'
 
 生命周期
 
@@ -126,6 +125,9 @@ async getProductList() {
 |-- pm2                             // Node进程守护，方便当服务挂掉时重启以及生成日志
 |-- process.json                    // pm2的配置
 ```
+
+## nuxt.config配置
+参考 'http://www.myblogbo.com/article/25.html'
 
 ## Build Setup
 ``` bash
